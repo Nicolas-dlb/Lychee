@@ -1,0 +1,30 @@
+[
+    {
+        "img": "https://images3.alphacoders.com/594/594512.jpg",
+        "city": "Saint-Joseph",
+        "name": "Cascade de Langevin",
+        "type": "Cascade",
+        "description": "Située dans le sud sauvage de La Réunion, la cascade Grand Galet est un site composé de plusieurs chutes d’eau s’étalant sur la même paroi. C’est certainement la cascade la plus célèbre de l’ile et l’une des plus fréquentées."
+    },
+    {
+        "img": "https://www.voyage.fr/sites/default/files/styles/1170x530/public/2018-05/La-plage-de-l%E2%80%99Ermitage%2C-l%E2%80%99aquarium-%C3%A0-ciel-ouvert-de-la-r%C3%A9union.jpg?itok=lFXcOKkg",
+        "city": "Saint-Paul",
+        "name": "Plage de l'hermitage",
+        "type": "Plage",
+        "description": "La plage de l'Hermitage est certainement l'une des plus belles de l'île de la Réunion. Elle offre de nombreux emplacements à l'ombre des filaos et est protégée par un récif corallien. Si la baignade n'est pas très profonde, le lagon est absolument superbe. Sortez vos masques et tubas !"
+    },
+     {
+        "img": "https://img.locationscout.net/images/2017-09/pas-de-bellecombe-la-reunion-reunion_l.jpeg",
+        "city": "Saint-Philippe",
+        "name": "Pas de bellecombe",
+        "description": "Sur la route du volcan, le pas de Bellecombe offre une vision sur les remparts naturel qui protège le Piton de la Fournaise. Pas de difficulté particuliére pour accéder à ce point de vue. Garez vous et ouvrez grand les yeux sur un des volcans les plus actifs de la planéte.",
+        "type": "Volcan"
+    },
+     {
+        "img": "https://guide-reunion.fr/fileadmin/_processed_/d/c/csm_etang-sale-plage-reunion-02_90d4dd868f.jpg",
+        "city": "l'Etang-Salé",
+        "name": "Plage de l'Etang Salé",
+        "type": "Plage",
+        "description": "La plage de l'Etang-Salé est l’une des rares de l’île faite de sable volcanique, fruit d’un mélange de basalte et de corail. Son lagon est pourvu d’une vie marine généreuse favorisant les explorations."
+    }
+]

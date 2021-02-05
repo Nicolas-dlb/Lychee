@@ -1,0 +1,61 @@
+.home {
+	background-image: url("./images/reunion.jpg");
+	background-size: cover;
+	height: 93.9vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	overflow: hidden;
+}
+
+.home__title {
+	height: 63vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.home__title > h1 {
+	color: #fff;
+	font-size: 46px;
+	cursor: pointer;
+}
+
+.lychee {
+	width: 100px;
+	padding-left: 50px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.home > h1 {
+	text-align: center;
+	margin: 10px;
+	opacity: 0.88;
+	color: rgb(99, 79, 79);
+	font-size: 2rem;
+	background: white;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;
+	width: 375px;
+	z-index: 1;
+}
+
+.display {
+	display: flex !important;
+}
+
+@media (max-width: 450px) {
+	.home > h1 {
+		font-size: 1.5rem;
+		width: fit-content;
+	}
+}
+@media (min-width: 900px) {
+	.home {
+		height: 100vh;
+	}
+}

@@ -1,0 +1,62 @@
+.explore {
+	height: 100%;
+	display: flex;
+	margin-top: 48px;
+	justify-content: center;
+}
+
+.explore__left > h1 {
+	margin-left: 25px;
+	color: rgb(59, 58, 58);
+}
+
+.explore__left {
+	margin-top: 50px;
+}
+.explore__right {
+	display: none;
+}
+
+.filtres {
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	margin-top: 20px;
+	font-family: "Segoe UI";
+	margin-bottom: 20px;
+	color: rgb(51, 49, 49);
+	position: relative;
+	margin-left: 20px;
+}
+
+.filtres > span {
+	padding: 7px 10px;
+	border: 1px solid lightgrey;
+	border-radius: 30px;
+	text-transform: inherit;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.filtres > span:hover {
+	border-color: black;
+}
+
+.map {
+	border-radius: 0 !important;
+}
+
+@media (max-width: 600px) {
+	.explore {
+		padding-bottom: 50px;
+	}
+}
+
+@media (min-width: 900px) {
+	.explore__right {
+		display: flex;
+	}
+	.explore {
+		justify-content: flex-start;
+	}
+}

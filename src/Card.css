@@ -1,0 +1,106 @@
+.card {
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(59, 58, 58);
+	margin-bottom: 20px;
+	cursor: pointer;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.card_image {
+	flex: 0.5;
+}
+
+.card_image > img {
+	width: 400px;
+	height: 200px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.card_info {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.card_info > p {
+	margin-right: 2%;
+}
+#description {
+	display: none;
+}
+.card_info_title {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.card_info_name {
+	text-align: center;
+}
+.heart_icon_image {
+	color: #ffffff;
+	position: relative;
+	top: -170px;
+	left: -40px;
+}
+
+.heart_icon_info {
+	border-radius: 20px;
+	padding: 5px;
+	display: none !important;
+	z-index: 1;
+}
+.heart_icon_info:hover {
+	background-color: rgb(216, 210, 210);
+}
+@media (max-width: 450px) {
+	.heart_icon_image {
+		top: -200px;
+		left: 360px;
+	}
+	.card_image > img {
+		width: 90%;
+	}
+	.card_image {
+		height: 200px;
+	}
+}
+@media (min-width: 600px) {
+	.heart_icon_image {
+		display: none;
+	}
+	.card {
+		align-items: flex-start;
+		flex-direction: row;
+		border-bottom: 1px solid lightgrey;
+	}
+
+	.card_info_title {
+		justify-content: space-between;
+	}
+	.card_info_name {
+		text-align: left;
+	}
+	.heart_icon_info {
+		display: flex !important;
+	}
+	.card_info {
+		margin-left: 40px;
+		margin-right: 20px;
+		align-items: flex-start;
+	}
+	#description {
+		display: flex;
+		margin-top: 10px;
+		width: 300px;
+	}
+}
